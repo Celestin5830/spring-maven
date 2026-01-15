@@ -1,4 +1,4 @@
-package com.example.demo_github;
+package com.example.demo;
  
 import org.springframework.boot.SpringApplication;
 
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
  
 @SpringBootApplication
 
-public class DemoGithubApplication {
+public class DemoApplication {
  
 	public static void main(String[] args) {
 
-		SpringApplication.run(DemoGithubApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 
 	}
  
